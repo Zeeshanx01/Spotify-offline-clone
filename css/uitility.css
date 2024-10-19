@@ -1,0 +1,218 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-grey {
+    background-color: #121212;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+
+
+/* Custom minimalistic scrollbar styles */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    /* Darker background for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444;
+    /* Darker color for the thumb */
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+    /* Slightly lighter color on hover */
+}
+
+/* Remove the top and bottom arrows */
+::-webkit-scrollbar-button:vertical:start:decrement,
+::-webkit-scrollbar-button:vertical:end:increment {
+    display: none;
+}
+
+/* Firefox scrollbar styles */
+html {
+    scrollbar-width: thin;
+    /* Makes the scrollbar thinner */
+    scrollbar-color: #444 #1a1a1a;
+    /* Thumb and track colors respectively */
+}
+
+
+
+
+
+
+
+
+.m1 {
+    margin: 5px;
+}
+
+.m2 {
+    margin: 10px;
+}
+
+.m3 {
+    margin: 15px;
+}
+
+.m4 {
+    margin: 20px;
+}
+
+.m5 {
+    margin: 25px;
+}
+
+.mv1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mv2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mv3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mv4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mv5 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.mh1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mh2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mh3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mh4 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mh5 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+/* ------------------------------------------------ */
+
+
+
+.p1 {
+    padding: 5px;
+}
+
+.p2 {
+    padding: 10px;
+}
+
+.p3 {
+    padding: 15px;
+}
+
+.p4 {
+    padding: 20px;
+}
+
+.p5 {
+    padding: 25px;
+}
+
+.pv1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pv2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pv3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pv4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pv5 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.ph1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ph2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ph3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ph4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ph5 {
+    padding-left: 25px;
+    padding-right: 25px;
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Title -->
+  <title>'Spotify - Web Player: Music for everyone'</title>
+  <link rel="icon" href="favicon.ico">
+  <!-- use "Ctrl+Shift+R" to see effects -->
+
+
+  <!-- My StyleSheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive_v2.css">
+  <link rel="stylesheet" href="css/uitility.css">
+
+  <!-- Bootstrap link for CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- FontAwesome link for Icons -->
+  <script src="https://kit.fontawesome.com/c393cae730.js" crossorigin="anonymous"></script>
+
+  <!-- Link for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <main class="main">
+
+
+
+
+
+
+
+
+
+
+
+    <div class="left mv2 round">
+      <div class="leftnav bg-grey round m1">
+        <ul>
+          <div class="logo">
+            <img src="svg/logo.svg" alt="">
+
+            <div class="close mh1">
+
+              <img src="svg/close.svg" alt="">
+            </div>
+
+          </div>
+          <li>
+            <img src="svg/home.svg" alt="home">Home
+          </li>
+          <li>
+            <img src="svg/search.svg" alt="">Search
+          </li>
+        </ul>
+      </div>
+
+      <div class="leftmain bg-grey round m1 p1">
+
+        <div class="library">
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true"
+                viewBox="0 0 24 24">
+                <path
+                  d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z"
+                  fill="white"></path>
+              </svg>Your Library
+            </li>
+          </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="playlist round ">
+          <ul>
+
+            
+
+          </ul>
+
+        </div>
+
+        <div class="leftfooter">
+          <div>
+            <a href="">
+              <span>Legal</span>
+            </a>
+          </div>
+          <div>
+            <a href="">Safety &amp; Privacy Center</a>
+          </div>
+          <div>
+            <a href="">Privacy Policy</a>
+          </div>
+          <div>
+            <a href="">
+              <span>Cookies</span>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <span>About Ads</span>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <span>Accessibility</span>
+            </a>
+          </div>
+          <div>
+            <a draggable="false" href="">
+              <span>Cookies</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="right bg-grey round mv3 mh1">
+
+      <div class="rightheader pv2 ph5 round">
+        <div class="hamburger">
+          <img src="svg/hamburger.svg" alt="hamburger">
+        </div>
+        <div class="navarrows">
+          <img src="svg/arrow-left-01-stroke-rounded.svg" alt="">
+          <img src="svg/arrow-right-01-stroke-rounded.svg" alt="">
+        </div>
+
+        <div class="buttons">
+          <button>Sign-up</button>
+          <button>Login</button>
+        </div>
+
+      </div>
+
+      <div class="playlistMenuRow p3">
+        <h1>Spotify Playlist</h1>
+
+        <div class="cardContainer round">
+
+
+          
+          
+        </div>
+
+
+        
+
+
+
+
+      </div>
+
+
+
+      <div class="playbar round">
+
+
+        <div class="controls">
+
+          <div class="songdetails">
+
+          </div>
+          <div class="playbtns m1">
+            <img id="previous" src="svg/prev.svg" alt="">
+            <img id="play" src="svg/play.svg" alt="">
+            <img id="next" src="svg/next.svg" alt="">
+          </div>
+
+
+          <div class="volNtime">
+
+            <div class="volume">
+
+              <img id="volbtn" src="svg/volume.svg" alt="">
+
+              <div class="volumerange invert">
+                <input id="volume" type="range" name="volume">
+              </div>
+
+            </div>
+
+            <div class="songtime">
+              00:00 / 00:00
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="seekbar round ">
+          <div class="circle">
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+  <script src="js/script.js"></script>
+
+  <!-- Bootstrap link for JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

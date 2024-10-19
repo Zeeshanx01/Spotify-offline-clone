@@ -1,0 +1,449 @@
+/* Laptop-screen-resolutions */
+
+/* 4k-screen */
+
+@media only screen and (max-width: 2560px) {
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 2460px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 2260px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 1960px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 1760px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 1560px) {
+    html {
+        font-size: 66%;
+    }
+}
+
+
+
+
+/* Laptop-L */
+@media only screen and (max-width: 1440px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .cardContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    html {
+        font-size: 56%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1160px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+
+
+
+/* Laptop-M */
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 44%;
+    }
+
+    .left {
+        position: absolute;
+        left: -100%;
+        /* top: 74px; */
+        transition: ease-in-out 500ms;
+        z-index: 1;
+        width: 40vw;
+        background-color: black;
+    }
+
+    .leftmain {
+        height: 77vh;
+    }
+
+    .close {
+        display: block;
+    }
+
+    .playlist {
+        max-height: 56vh;
+    }
+
+    .playlist>ul>li>.songinfo>:nth-child(1) {
+        font-size: 14px;
+        font-weight: 400;
+        width: 35rem;
+    }
+
+
+    .right {
+        width: 100vw;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .cardContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        height: 78vh;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+    }
+
+    .cards {
+        width: 24rem;
+        height: 38rem;
+        background-color: black;
+        position: relative;
+    }
+
+    .cards>.playbutton {
+        position: absolute;
+        top: 17.5rem;
+        left: 15.5rem;
+
+    }
+
+    .cards>.playbutton>svg {
+        /* width: 40px; */
+        width: 70%;
+        transition: all 500ms;
+    }
+
+    .playbar {
+        width: 98vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 968px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+
+
+
+@media only screen and (orientation: portrait) {
+
+
+
+    .left {
+        width: 100%;
+        background-color: black;
+    }
+
+    .leftmain {
+        height: 68vh;
+    }
+
+
+    .playlist {
+        max-height: 55vh;
+    }
+
+    .playlist>ul>li>.songinfo {
+        width: 600px;
+    }
+
+    .playlist>ul>li>.songinfo>:nth-child(1) {
+        font-size: 16px;
+        font-weight: 400;
+        width: 75rem;
+    }
+
+    .playlist>ul>li>.songinfo>:nth-child(2) {
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .right {
+        /* background-color: blue; */
+        width: 97%;
+        /* height: 96vh; */
+        min-height: 80vh;
+        max-height: 100vh;
+    }
+
+    .rightheader>.navarrows>img {
+        width: 30px;
+    }
+
+    .rightheader>.buttons>button {
+        font-size: 12px;
+        padding: 8px 13px;
+
+    }
+
+    .playlistMenuRow {
+        /* width: 95%; */
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        height: 80vh;
+    }
+
+    .cardContainer {
+        /* background-color: red; */
+        /* margin-bottom: 200px; */
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 66vh;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .cards {
+        width: 50rem;
+        height: 80rem;
+        background-color: black;
+        position: relative;
+    }
+
+    .cards>.playbutton {
+
+        top: 40.5rem;
+        left: 34rem;
+    }
+
+    .cards>.playbutton>svg {
+        width: 40px;
+    }
+
+    .playbar {
+        height: 60px;
+        /* opacity: 50%; */
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .playbar .controls {
+        /* background-color: red; */
+        width: 94%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .playbar .songdetails {
+        /* background-color: aquamarine; */
+        font-size: 15px;
+        max-width: 48%;
+        min-width: 30%;
+        /* margin: auto; */
+        /* justify-content: center; */
+        /* text-align: center; */
+    }
+
+    .playbtns>img {
+        width: 8rem;
+        margin: 0px 4px;
+    }
+
+    .volNtime {
+        /* background-color: red; */
+        display: flex;
+        /* background-color: red; */
+        max-width: 48%;
+        min-width: 30%;
+        justify-content: end;
+    }
+
+    .playbar .volume {
+        /* margin: 0px 10px; */
+
+
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+
+
+
+    .playbar .volume>img {
+        margin: 0px 5px;
+        width: 5rem;
+        /* height: 5px; */
+        /* background-color: red; */
+    }
+
+    .playbar .songtime {
+        /* background-color: aqua; */
+        font-size: 12px;
+        /* flex-direction: column; */
+        width: 80px;
+        /* margin: auto; */
+        display: flex;
+        justify-content: end;
+    }
+
+    .playbar .volumerange {
+        display: none;
+    }
+
+
+    /* .playbar .volumerange>input {
+        padding-bottom: 3px;
+        width: 70px;
+        height: 4px;
+        margin: 0px 5px;
+    } */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet-screen-resolutions */
+
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 36%;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    html {
+        font-size: 28%;
+    }
+
+
+}
+/* 570==573 */
+@media only screen and (max-width: 573px) {
+    html {
+        font-size: 25.5%;
+    }
+    /* .playbar {
+        background-color: red;
+    } */
+}
+/* 480==480 */
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 24%;
+    }
+
+}
+
+/* 440==442*/
+@media only screen and (max-width: 442px) {
+    html {
+        font-size: 23%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobiles-screen-resolutions */
+/* Mobile-L */
+/* 426==428 */
+@media only screen and (max-width: 428px) {
+    html {
+        font-size: 22%;
+    }
+}
+
+/* Mobile-M */
+@media only screen and (max-width: 375px) {
+    html {
+        font-size: 20%;
+    }
+}
+
+/* Mobile-S */
+@media only screen and (max-width: 330px) {
+    html {
+        font-size: 17%;
+    }
+}
